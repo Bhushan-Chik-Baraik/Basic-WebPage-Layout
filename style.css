@@ -1,0 +1,167 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: slategray;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#head{
+    background-color: blueviolet;
+    background-image: url("image/im13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    box-sizing: border-box;
+}
+#wrarpper{
+    border: 1px solid black;
+    width: 80vw;
+    background: white;
+    margin: 0 auto;
+}
+#header{
+    background:linear-gradient(to top,  rgba(250, 178, 45, 0.5),
+     rgba(247, 127, 83,0.6)) ;
+    height: 80px;
+    color:rgb(100, 19, 177);
+    text-shadow: yellow;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#menu{ 
+    background: linear-gradient(to top, rgba(252, 82, 15, 0.7),
+    rgba(250, 178, 45, 0.5)) ;
+} 
+#menu ul{
+    margin: 0;
+    padding: 0;
+}
+#menu li{ 
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+#menu li a{
+    text-decoration: none;
+    margin: 0px;
+    color: black;
+}
+#menu li:hover{
+    background-color: rgba(210, 243, 22, 0.89) ;;
+    color: rgb(6, 22, 247);
+}
+#menu li a:hover{
+    color: blue;
+}
+#content{
+    background:linear-gradient(to left, rgb(150, 150, 223), rgba(99,99,230));
+    width: 80%;
+    min-height: 480px;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+#sidebar{
+    width: 20%;
+    min-height: 480px;
+    background: lightblue;
+    float: right;
+}
+#sidebar ul{
+    list-style: none;
+  
+}
+#sidebar li{   
+    margin: 4px;
+    padding: 2px;
+    border-radius: 3px;  
+}
+#acontent{
+    width: 70%;
+    min-height: 480px;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+    /* background:linear-gradient(to left, rgb(150, 150, 223), rgba(99,99,230)); */
+    background-image: url("image/ld4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+#ccontent{
+    width: 100%;
+    min-height: 480px;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+    /* background:linear-gradient(to left, rgb(150, 150, 223), rgba(99,99,230)); */
+    background-image: url("image/ld4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+#asidebar{
+    width: 30%;
+    min-height: 480px;
+    background: lightblue;
+    float: right;
+}
+#asidebar ul{
+    list-style: none;
+  
+}
+#asidebar li{   
+    margin: 4px;
+    padding: 2px;
+    border-radius: 3px;  
+}
+#sidebar a{
+    text-decoration: none;
+    color: black;
+}
+#sidebar li:hover{
+    background-color: rgb(71, 182, 252);
+    color: black;
+}
+#lgsidebar{
+    width: 7%;
+    min-height: 480px;
+    background: linear-gradient(to right,green,yellow);
+
+    float: left;
+    box-sizing: border-box;
+}
+#gcontent{
+    background:linear-gradient(to left,rgb(230, 11, 200), rgb(37, 241, 64), rgba(99,99,230));
+    width:90%;
+    min-height: 480px;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+#rgsidebar{
+    width: 5%;
+    min-height: 480px;
+    background: linear-gradient(to left,green,yellow);
+    float: right;
+}
+#footer{
+    background : linear-gradient(to top, rgb(245, 113, 26),rgb(245, 172, 15));
+    clear: both;
+    padding: 5px 10px;
+    text-align: right;
+}
+@media screen and(max-width:900px){
+    #content{
+        width: 60%;
+    }
+    #sidebar{
+        width: 40%;
+        height: auto;
+    }
+
+    
+}
